@@ -152,6 +152,101 @@ Market Cap: $820B
 Keyword: technology
 1. AI startup raises $20M…
 2. New smartphone launched…
+# Task-3-python
+
+📁 Sales Data Automation Script
+
+A simple Python automation script that reads a CSV file containing product sales data and generates useful outputs like total amount, product-wise summary, month-wise summary, and more.
+
+
+---
+
+📌 Project Overview
+
+This project automates the processing of a CSV file with sales information.
+It reads the file, performs calculations, handles errors safely, and displays the output clearly.
+
+Your Sample CSV File (sales.csv):
+
+Date,Product,Quantity,UnitPrice,Amount
+2025-01-05,Soap,10,20,200
+2025-01-10,Shampoo,5,100,500
+2025-02-03,Soap,8,20,160
+2025-03-01,Toothpaste,6,50,300
+2025-01-15,Shampoo,4,100,400
+
+
+---
+
+🚀 Features
+
+Reads sales data from a CSV file
+
+Calculates:
+
+✔ Total Sales Amount
+
+✔ Product-wise totals
+
+✔ Month-wise totals
+
+
+Handles missing files and wrong inputs (Exception Handling)
+
+Clean and readable output
+
+Easy to modify and extend
+
+
+How to Run
+
+1. Open IDLE / VS Code / PyCharm
+
+
+2. Create a file named sales.csv
+
+
+3. Copy your CSV content into it
+
+
+4. Create a Python file script.py
+
+
+5. Run:
+
+
+
+python script.py
+
+
+---
+
+📝 Sample Output
+
+Total Sales: 1560
+Product-wise Sales:
+  Soap → 360
+  Shampoo → 900
+  Toothpaste → 300
+
+Month-wise Sales:
+  2025-01 → 1100
+  2025-02 → 160
+  2025-03 → 300
+
+
+---
+
+🛠 Requirements
+
+Python 3+
+
+csv module (built-in)
+
+Your CSV file (sales.csv)
+
+
+
 
 
 
