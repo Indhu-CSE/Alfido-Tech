@@ -61,4 +61,97 @@ python automation.py
 ---
 
 📥 User Input Options
+# Task-2-pythonAPI Integration Project (Weather / Crypto / News)
+
+This project fetches real-time data from public APIs using Python’s requests module.
+Users can search or filter the results and view clean, formatted output on the terminal.
+
+
+---
+
+🔥 Features
+
+Fetch Weather / Crypto / News data
+
+Uses Requests module
+
+JSON response parsing
+
+Search / Filter option
+
+Error handling added
+
+Clean output format
+
+
+🧪 Requirements
+
+Install required modules:
+
+pip install requests
+
+(If you create requirements.txt, add)
+
+requests
+
+
+---
+
+🚀 How to Run
+
+python main.py
+
+
+---
+
+🛠️ How It Works
+
+1. User selects:
+
+Weather
+
+Crypto
+
+News
+
+
+
+2. Script sends request to the selected API
+
+
+3. Parses JSON data
+
+
+4. Prints neat formatted output
+
+
+5. Optionally filter/search (e.g., city name, crypto name, news keyword)
+
+
+
+
+---
+
+🔍 Sample Output
+
+✔ Weather Example
+
+Enter city: Chennai
+Temperature: 30°C
+Condition: Clear
+Humidity: 70%
+
+✔ Crypto Example
+
+Enter crypto name: bitcoin
+Current Price: $41,200
+Market Cap: $820B
+
+✔ News Example
+
+Keyword: technology
+1. AI startup raises $20M…
+2. New smartphone launched…
+
+
 
